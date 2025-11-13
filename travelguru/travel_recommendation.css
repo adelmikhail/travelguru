@@ -1,7 +1,13 @@
-#maindiv {
+.nav {
+    background-color: black;
+    color: white;
+}
+
+.maindiv {
     width: 100%;
     height: 300px; /* or any height you want */
     background-image: url("./Kangaroo.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     }
