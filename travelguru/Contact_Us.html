@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact Us</title>
-  <link rel="stylesheet" href="./health_analysis.css">
+  <link rel="stylesheet" href="./travel_recommendation.css"></link>
   <style>
     body{
         text-align: center;
@@ -32,18 +32,19 @@
   </style>
 </head>
 <body>
-  <nav><h1>Health Analysis Census</h1>
-    <ul>
-      <li><a href="./travel_recommendation.html" id="home">Home </a></li>
-      <li><a href="./health_contact.html" id="contact">Contact Us </a></li>
-      </li>
-
+  <nav class="nav">
+    <div class="brand">Travelguru</div>
+    <ul class="navlinks">
+        <li><a href="./travel_recommendation.html">Home</a></li>
+        <li><a href="./About_Us.html">About Us</a></li>
+        <li><a href="./Contact_Us.html">Contact Us</a></li>
     </ul>
-    </nav>
+</nav>
+<div class="maindiv">
   <h1>Contact Us</h1>
   <p>Feel free to contact us to know more about your conditions and for treatment methods.</p>
 
-  <form id="contactForm">
+  <form>
     <div>
       <label for="name">Name</label>
       <input type="text" id="name" name="name" required>
@@ -67,5 +68,6 @@
         alert('Thank you for contacting us!')
     }
   </script>
+</div>
 </body>
 </html>
