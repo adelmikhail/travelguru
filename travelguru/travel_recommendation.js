@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const input = document.querySelector(".navlinks input");
-    const searchBtn = document.querySelector(".navlinks button:nth-of-type(1)");
-    const resetBtn = document.querySelector(".navlinks button:nth-of-type(2)");
+    const searchBtn = document.getElementById("searchBtn");
+    const resetBtn = document.getElementById("resetBtn");
 
     // Load JSON data
     async function loadData() {
